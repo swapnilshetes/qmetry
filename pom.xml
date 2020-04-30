@@ -35,16 +35,7 @@
 
 	
 	<pluginRepositories>
-				<pluginRepository>
-			<id>qmetrytestmanager-mvn-repo</id>
-			<name>QMetry Test Manager Maven Repository</name>
-			<url>https://raw.github.com/qmetry/qtm4j-maven-uploader/mvn-repo/</url>
-			<releases>
-				<enabled>true</enabled>
-				<updatePolicy>always</updatePolicy>
-			</releases>
-		</pluginRepository>
-<pluginRepository>
+		<pluginRepository>
   <id>central</id>
   <name>Central Repository</name>
   <url>https://repo.maven.apache.org/maven2</url>
@@ -56,6 +47,16 @@
     <updatePolicy>never</updatePolicy>
   </releases>
 </pluginRepository>
+				<pluginRepository>
+			<id>qmetrytestmanager-mvn-repo</id>
+			<name>QMetry Test Manager Maven Repository</name>
+			<url>https://raw.github.com/qmetry/qtm4j-maven-uploader/mvn-repo/</url>
+			<releases>
+				<enabled>true</enabled>
+				<updatePolicy>always</updatePolicy>
+			</releases>
+		</pluginRepository>
+
 </pluginRepositories>
 
 	<build>
