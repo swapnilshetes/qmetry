@@ -1,3 +1,4 @@
+// New line 1
 package com.qmetry;
 
 public class Calculator implements ICalculator {
